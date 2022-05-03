@@ -1,0 +1,261 @@
+Tournament_ID,Tournament_Name,Surface
+2020-6932,ATP Rio de Janeiro,Clay
+2019-M004,Acapulco,Hard
+2020-M004,Acapulco,Hard
+2021-0807,Acapulco,Hard
+2020-M056,Adelaide,Hard
+2019-7650,Antalya,Grass
+2021-9426,Antalya,Hard
+2019-7485,Antwerp,Hard
+2020-7485,Antwerp,Hard
+2021-7485,Antwerp,Hard
+2019-6116,Atlanta,Hard
+2021-6116,Atlanta,Hard
+2020-8888,Atp Cup,Hard
+2021-8888,Atp Cup,Hard
+2019-0301,Auckland,Hard
+2020-0301,Auckland,Hard
+2019-580,Australian Open,Hard
+2020-580,Australian Open,Hard
+2021-580,Australian Open,Hard
+2019-0425,Barcelona,Clay
+2021-0425,Barcelona,Clay
+2019-0328,Basel,Hard
+2019-0316,Bastad,Clay
+2021-0316,Bastad,Clay
+2019-M015,Beijing,Hard
+2021-5053,Belgrade,Clay
+2021-9512,Belgrade 2,Clay
+2019-M020,Brisbane,Hard
+2019-7648,Budapest,Clay
+2019-0506,Buenos Aires,Clay
+2020-0506,Buenos Aires,Clay
+2021-0506,Buenos Aires,Clay
+2021-9481,Cagliari,Clay
+2019-0421,Canada Masters,Hard
+2021-0421,Canada Masters,Hard
+2019-7581,Chengdu,Hard
+2019-M024,Cincinnati Masters,Hard
+2020-M024,Cincinnati Masters,Hard
+2021-0422,Cincinnati Masters,Hard
+2020-9404,Cologne 1,Hard
+2020-9406,Cologne 2,Hard
+2019-9158,Cordoba,Clay
+2020-9158,Cordoba,Clay
+2021-9158,Cordoba,Clay
+2019-M-DC-2019-FLS-M-CAN-ESP-01,Davis Cup Finals F: CAN vs ESP,Hard
+2021-M-DC-2021-FLS-M-RTF-CRO-01,Davis Cup Finals F: RTF vs CRO,Hard
+2019-M-DC-2019-FLS-M-ARG-ESP-01,Davis Cup Finals QF: ARG vs ESP,Hard
+2019-M-DC-2019-FLS-M-AUS-CAN-01,Davis Cup Finals QF: AUS vs CAN,Hard
+2019-M-DC-2019-FLS-M-GBR-GER-01,Davis Cup Finals QF: GBR vs GER,Hard
+2021-M-DC-2021-FLS-M-GBR-GER-01,Davis Cup Finals QF: GBR vs GER,Hard
+2021-M-DC-2021-FLS-M-ITA-CRO-01,Davis Cup Finals QF: ITA vs CRO,Hard
+2021-M-DC-2021-FLS-M-RTF-SWE-01,Davis Cup Finals QF: RTF vs SWE,Hard
+2021-M-DC-2021-FLS-M-SRB-KAZ-01,Davis Cup Finals QF: SRB vs KAZ,Hard
+2019-M-DC-2019-FLS-M-SRB-RUS-01,Davis Cup Finals QF: SRB vs RUS,Hard
+2019-M-DC-2019-FLS-C-M-ARG-CHI-01,Davis Cup Finals RR: ARG vs CHI,Hard
+2019-M-DC-2019-FLS-C-M-ARG-GER-01,Davis Cup Finals RR: ARG vs GER,Hard
+2019-M-DC-2019-FLS-D-M-AUS-COL-01,Davis Cup Finals RR: AUS vs COL,Hard
+2021-M-DC-2021-FLS-D-M-AUS-HUN-01,Davis Cup Finals RR: AUS vs HUN,Hard
+2019-M-DC-2019-FLS-D-M-BEL-AUS-01,Davis Cup Finals RR: BEL vs AUS,Hard
+2019-M-DC-2019-FLS-D-M-BEL-COL-01,Davis Cup Finals RR: BEL vs COL,Hard
+2021-M-DC-2021-FLS-B-M-CAN-KAZ-01,Davis Cup Finals RR: CAN vs KAZ,Hard
+2021-M-DC-2021-FLS-B-M-CAN-SWE-01,Davis Cup Finals RR: CAN vs SWE,Hard
+2021-M-DC-2021-FLS-D-M-CRO-AUS-01,Davis Cup Finals RR: CRO vs AUS,Hard
+2019-M-DC-2019-FLS-B-M-CRO-ESP-01,Davis Cup Finals RR: CRO vs ESP,Hard
+2019-M-DC-2019-FLS-B-M-CRO-RUS-01,Davis Cup Finals RR: CRO vs RUS,Hard
+2021-M-DC-2021-FLS-A-M-ESP-ECU-01,Davis Cup Finals RR: ESP vs ECU,Hard
+2021-M-DC-2021-FLS-A-M-ESP-RTF-01,Davis Cup Finals RR: ESP vs RTF,Hard
+2019-M-DC-2019-FLS-B-M-ESP-RUS-01,Davis Cup Finals RR: ESP vs RUS,Hard
+2021-M-DC-2021-FLS-C-M-FRA-CZE-01,Davis Cup Finals RR: FRA vs CZE,Hard
+2021-M-DC-2021-FLS-C-M-FRA-GBR-01,Davis Cup Finals RR: FRA vs GBR,Hard
+2019-M-DC-2019-FLS-A-M-FRA-JPN-01,Davis Cup Finals RR: FRA vs JPN,Hard
+2019-M-DC-2019-FLS-A-M-FRA-SRB-01,Davis Cup Finals RR: FRA vs SRB,Hard
+2019-M-DC-2019-FLS-E-M-GBR-KAZ-01,Davis Cup Finals RR: GBR vs KAZ,Hard
+2019-M-DC-2019-FLS-E-M-GBR-NED-01,Davis Cup Finals RR: GBR vs NED,Hard
+2021-M-DC-2021-FLS-F-M-GER-AUT-01,Davis Cup Finals RR: GER vs AUT,Hard
+2019-M-DC-2019-FLS-C-M-GER-CHI-01,Davis Cup Finals RR: GER vs CHI,Hard
+2019-M-DC-2019-FLS-F-M-ITA-CAN-01,Davis Cup Finals RR: ITA vs CAN,Hard
+2021-M-DC-2021-FLS-E-M-ITA-COL-01,Davis Cup Finals RR: ITA vs COL,Hard
+2019-M-DC-2019-FLS-E-M-KAZ-NED-01,Davis Cup Finals RR: KAZ vs NED,Hard
+2021-M-DC-2021-FLS-B-M-KAZ-SWE-01,Davis Cup Finals RR: KAZ vs SWE,Hard
+2021-M-DC-2021-FLS-A-M-RTF-ECU-01,Davis Cup Finals RR: RTF vs ECU,Hard
+2021-M-DC-2021-FLS-F-M-SRB-AUT-01,Davis Cup Finals RR: SRB vs AUT,Hard
+2021-M-DC-2021-FLS-F-M-SRB-GER-01,Davis Cup Finals RR: SRB vs GER,Hard
+2019-M-DC-2019-FLS-A-M-SRB-JPN-01,Davis Cup Finals RR: SRB vs JPN,Hard
+2019-M-DC-2019-FLS-F-M-USA-CAN-01,Davis Cup Finals RR: USA vs CAN,Hard
+2021-M-DC-2021-FLS-E-M-USA-COL-01,Davis Cup Finals RR: USA vs COL,Hard
+2019-M-DC-2019-FLS-F-M-USA-ITA-01,Davis Cup Finals RR: USA vs ITA,Hard
+2021-M-DC-2021-FLS-E-M-USA-ITA-01,Davis Cup Finals RR: USA vs ITA,Hard
+2021-M-DC-2021-FLS-M-CRO-SRB-01,Davis Cup Finals SF: CRO vs SRB,Hard
+2019-M-DC-2019-FLS-M-GBR-ESP-01,Davis Cup Finals SF: GBR vs ESP,Hard
+2021-M-DC-2021-FLS-M-RTF-GER-01,Davis Cup Finals SF: RTF vs GER,Hard
+2019-M-DC-2019-FLS-M-RUS-CAN-01,Davis Cup Finals SF: RUS vs CAN,Hard
+2019-M-DC-2019-G1-EPA-M-AUT-FIN-01,Davis Cup G1 R1: AUT vs FIN,Hard
+2019-M-DC-2019-G1-AM-M-BRA-BAR-01,Davis Cup G1 R1: BRA vs BAR,Clay
+2019-M-DC-2019-G1-AO-M-CHN-KOR-01,Davis Cup G1 R1: CHN vs KOR,Hard
+2019-M-DC-2019-G1-EPA-M-CZE-BIH-01,Davis Cup G1 R1: CZE vs BIH,Hard
+2019-M-DC-2019-G1-AM-M-DOM-URU-01,Davis Cup G1 R1: DOM vs URU,Clay
+2019-M-DC-2019-G1-EPA-M-HUN-UKR-01,Davis Cup G1 R1: HUN vs UKR,Clay
+2019-M-DC-2019-G1-EPA-M-POR-BLR-01,Davis Cup G1 R1: POR vs BLR,Hard
+2019-M-DC-2019-G1-EPA-M-SUI-SVK-01,Davis Cup G1 R1: SUI vs SVK,Clay
+2019-M-DC-2019-G1-EPA-M-SWE-ISR-01,Davis Cup G1 R1: SWE vs ISR,Hard
+2019-M-DC-2019-G2-EPA-M-EGY-SLO-01,Davis Cup G2 R1: EGY vs SLO,Clay
+2019-M-DC-2019-G2-EPA-M-LTU-MAR-01,Davis Cup G2 R1: LTU vs MAR,Clay
+2019-M-DC-2019-G2-EPA-M-RSA-BUL-01,Davis Cup G2 R1: RSA vs BUL,Hard
+2020-M-DC-2020-QLS-M-ARG-COL-01,Davis Cup QLS R1: ARG vs COL,Clay
+2019-M-DC-2019-QLS-M-AUS-BIH-01,Davis Cup QLS R1: AUS vs BIH,Hard
+2020-M-DC-2020-QLS-M-AUS-BRA-01,Davis Cup QLS R1: AUS vs BRA,Hard
+2019-M-DC-2019-QLS-M-AUT-CHI-01,Davis Cup QLS R1: AUT vs CHI,Clay
+2020-M-DC-2020-QLS-M-AUT-URU-01,Davis Cup QLS R1: AUT vs URU,Hard
+2019-M-DC-2019-QLS-M-BEL-BRA-01,Davis Cup QLS R1: BEL vs BRA,Clay
+2020-M-DC-2020-QLS-M-BEL-HUN-01,Davis Cup QLS R1: BEL vs HUN,Clay
+2019-M-DC-2019-QLS-M-CAN-SVK-01,Davis Cup QLS R1: CAN vs SVK,Clay
+2020-M-DC-2020-QLS-M-CRO-IND-01,Davis Cup QLS R1: CRO vs IND,Hard
+2019-M-DC-2019-QLS-M-CZE-NED-01,Davis Cup QLS R1: CZE vs NED,Hard
+2020-M-DC-2020-QLS-M-CZE-SVK-01,Davis Cup QLS R1: CZE vs SVK,Clay
+2020-M-DC-2020-QLS-M-GER-BLR-01,Davis Cup QLS R1: GER vs BLR,Hard
+2019-M-DC-2019-QLS-M-ITA-IND-01,Davis Cup QLS R1: ITA vs IND,Grass
+2019-M-DC-2019-QLS-M-JPN-CHN-01,Davis Cup QLS R1: JPN vs CHN,Hard
+2020-M-DC-2020-QLS-M-JPN-ECU-01,Davis Cup QLS R1: JPN vs ECU,Hard
+2020-M-DC-2020-QLS-M-KAZ-NED-01,Davis Cup QLS R1: KAZ vs NED,Hard
+2019-M-DC-2019-QLS-M-KAZ-POR-01,Davis Cup QLS R1: KAZ vs POR,Hard
+2019-M-DC-2019-QLS-M-SRB-UZB-01,Davis Cup QLS R1: SRB vs UZB,Hard
+2019-M-DC-2019-QLS-M-SUI-RUS-01,Davis Cup QLS R1: SUI vs RUS,Hard
+2019-M-DC-2019-QLS-M-SWE-COL-01,Davis Cup QLS R1: SWE vs COL,Clay
+2020-M-DC-2020-QLS-M-USA-UZB-01,Davis Cup QLS R1: USA vs UZB,Hard
+2020-M-DC-2020-WG1-PO-BIH-RSA-01,Davis Cup WG1 PO: BIH vs RSA,Hard
+2020-M-DC-2020-WG1-PO-BOL-DOM-01,Davis Cup WG1 PO: BOL vs DOM,Clay
+2020-M-DC-2020-WG1-PO-LTU-POR-01,Davis Cup WG1 PO: LTU vs POR,Hard
+2020-M-DC-2020-WG1-PO-NOR-BAR-01,Davis Cup WG1 PO: NOR vs BAR,Hard
+2020-M-DC-2020-WG1-PO-TUR-ISR-01,Davis Cup WG1 PO: TUR vs ISR,Clay
+2021-M-DC-2021-WG1-KOPO-UKR-NOR-01,Davis Cup WG1 PO: UKR vs NOR,Hard
+2021-M-DC-2021-WG1-M-BEL-BOL-01,Davis Cup WG1 R1: BEL vs BOL,Clay
+2021-M-DC-2021-WG1-M-CHI-SVK-01,Davis Cup WG1 R1: CHI vs SVK,Hard
+2021-M-DC-2021-WG1-M-IND-FIN-01,Davis Cup WG1 R1: IND vs FIN,Hard
+2021-M-DC-2021-WG1-M-ISR-UKR-01,Davis Cup WG1 R1: ISR vs UKR,Hard
+2021-M-DC-2021-WG1-M-KOR-NZL-01,Davis Cup WG1 R1: KOR vs NZL,Grass
+2021-M-DC-2021-WG1-M-POR-ROU-01,Davis Cup WG1 R1: POR vs ROU,Hard
+2021-M-DC-2021-WG1-M-UZB-NOR-01,Davis Cup WG1 R1: UZB vs NOR,Hard
+2020-M-DC-2020-WG2-PO-LAT-EGY-01,Davis Cup WG2 PO: LAT vs EGY,Hard
+2021-M-DC-2021-WG2-M-TUR-LAT-01,Davis Cup WG2 R1: TUR vs LAT,Hard
+2019-0499,Delray Beach,Hard
+2020-0499,Delray Beach,Hard
+2021-0499,Delray Beach,Hard
+2019-0451,Doha,Hard
+2020-0451,Doha,Hard
+2021-0451,Doha,Hard
+2019-0495,Dubai,Hard
+2020-0495,Dubai,Hard
+2021-0495,Dubai,Hard
+2019-M016,Eastbourne,Grass
+2021-0741,Eastbourne,Grass
+2019-7290,Estoril,Clay
+2021-7290,Estoril,Clay
+2019-0322,Geneva,Clay
+2021-0322,Geneva,Clay
+2021-8998,Great Ocean Road Open,Hard
+2019-0314,Gstaad,Clay
+2021-0314,Gstaad,Clay
+2019-0500,Halle,Grass
+2021-0500,Halle,Grass
+2019-0414,Hamburg,Clay
+2020-0414,Hamburg,Clay
+2021-0414,Hamburg,Clay
+2019-0717,Houston,Clay
+2019-M006,Indian Wells Masters,Hard
+2021-0404,Indian Wells Masters,Hard
+2019-0319,Kitzbuhel,Clay
+2020-0319,Kitzbuhel,Clay
+2021-0319,Kitzbuhel,Clay
+2019-7480,Los Cabos,Hard
+2021-7480,Los Cabos,Hard
+2019-7694,Lyon,Clay
+2021-7694,Lyon,Clay
+2019-M021,Madrid Masters,Clay
+2021-1536,Madrid Masters,Clay
+2021-8994,Mallorca,Grass
+2021-9462,Marbella,Clay
+2019-0360,Marrakech,Clay
+2019-0496,Marseille,Hard
+2020-0496,Marseille,Hard
+2021-0496,Marseille,Hard
+2019-0341,Metz,Hard
+2021-0341,Metz,Hard
+2019-M007,Miami Masters,Hard
+2021-0403,Miami Masters,Hard
+2019-0410,Monte Carlo Masters,Clay
+2021-0410,Monte Carlo Masters,Clay
+2019-0375,Montpellier,Hard
+2020-0375,Montpellier,Hard
+2021-0375,Montpellier,Hard
+2019-M014,Moscow,Hard
+2021-0438,Moscow,Hard
+2019-0308,Munich,Clay
+2021-0308,Munich,Clay
+2021-9428,Murray River Open,Hard
+2019-0424,New York,Hard
+2020-0424,New York,Hard
+2019-0315,Newport,Grass
+2021-0315,Newport,Grass
+2019-7696,NextGen Finals,Hard
+2021-7696,NextGen Finals,Hard
+2020-9410,Nur-Sultan,Hard
+2021-9410,Nur-Sultan,Hard
+2019-0352,Paris Masters,Hard
+2020-0352,Paris Masters,Hard
+2021-0352,Paris Masters,Hard
+2021-9510,Parma,Clay
+2019-0891,Pune,Hard
+2020-0891,Pune,Hard
+2019-0311,Queen's Club,Grass
+2021-0311,Queen's Club,Grass
+2019-6932,Rio de Janeiro,Clay
+2019-520,Roland Garros,Clay
+2020-520,Roland Garros,Clay
+2021-520,Roland Garros,Clay
+2019-M009,Rome Masters,Clay
+2020-M009,Rome Masters,Clay
+2021-0416,Rome Masters,Clay
+2019-0407,Rotterdam,Hard
+2020-0407,Rotterdam,Hard
+2021-0407,Rotterdam,Hard
+2021-9569,San Diego,Hard
+2020-8996,Santiago,Clay
+2021-8996,Santiago,Clay
+2019-0533,Sao Paulo,Clay
+2020-9408,Sardinia,Clay
+2019-5014,Shanghai Masters,Hard
+2021-9460,Singapore,Hard
+2019-7434,Sofia,Hard
+2020-7434,Sofia,Hard
+2021-7434,Sofia,Hard
+2020-0568,St Petersburg,Hard
+2019-0568,St. Petersburg,Hard
+2021-0568,St. Petersburg,Hard
+2019-0429,Stockholm,Hard
+2021-0429,Stockholm,Hard
+2019-0321,Stuttgart,Grass
+2021-0321,Stuttgart,Grass
+2019-M001,Sydney,Hard
+2019-0329,Tokyo,Hard
+2021-0096,Tokyo Olympics,Hard
+2019-0605,Tour Finals,Hard
+2020-0605,Tour Finals,Hard
+2021-0605,Tour Finals,Hard
+2019-560,US Open,Hard
+2019-0439,Umag,Clay
+2021-0439,Umag,Clay
+2020-560,Us Open,Hard
+2021-560,Us Open,Hard
+2019-0337,Vienna,Hard
+2020-0337,Vienna,Hard
+2021-0337,Vienna,Hard
+2019-M035,Washington,Hard
+2021-0418,Washington,Hard
+2019-540,Wimbledon,Grass
+2021-540,Wimbledon,Grass
+2019-6242,Winston-Salem,Hard
+2021-6242,Winston-Salem,Hard
+2019-9164,Zhuhai,Hard
+2019-M010,s Hertogenbosch,Grass
