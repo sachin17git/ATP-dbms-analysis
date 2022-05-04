@@ -35,7 +35,7 @@ navigate = st.sidebar.radio("Contents", ["Main", "Database", "Retrieval", "Queri
 if navigate=="Main":
     st.subheader("ATP Analysis")
     st.caption("Association of Tennis Professionals")
-    st.markdown("Statistical Analysis of tennis professionals for the past 4 years with the help of a database management system.")
+    st.markdown("Statistical Analysis of tennis professionals for the past 3 years with the help of a database management system.")
     st.image('front1.jpg', caption=""" "Tennis is a fine balance between determination and tiredness." """, width=700)
     
 elif navigate=="Database":
@@ -182,7 +182,7 @@ WHERE winner_id IN (select distinct match_stats.winner_id
 					from match_stats INNER JOIN player ON match_stats.Winner_ID = player.player_id 
 					WHERE player.location = 'USA')
                     
-            UPDATE match_stats
+UPDATE match_stats
 SET player_type_winner = 'international'
 WHERE winner_id IN (select distinct match_stats.winner_id 
 					from match_stats INNER JOIN player ON match_stats.Winner_ID = player.player_id 
@@ -207,19 +207,75 @@ order by match_stats.winner_id, tournament.year, total_winning_points DESC"""
     r8 = pd.DataFrame(r8)
     col2.dataframe(r8)
     st.write("\n\n\n\n\n\n")
+    
 
-
-    st.info("Find the maximum scorer in each year")
+    st.info("Highest scorer of that particular year.")
     col1, col2 = st.columns(2)
-    q10 = """select match_stats.winner_id ,tournament.year, sum(match_stats.winner_points) as total_winning_points
+    q11 = """select e.year, e.highest_point, player.name from 
+(select c.year, c.highest_point, d.winner_id from
+(select b.year, max(b.total_winning_points) as highest_point from 
+(select match_stats.winner_id ,tournament.year, sum(match_stats.winner_points) as total_winning_points
 from match_stats inner join tournament on tournament.Tournament_ID = match_stats.Tournament_ID
 group by match_stats.winner_id ,tournament.year
-order by match_stats.winner_id, tournament.year, total_winning_points DESC"""
-    col1.code(q10)
-    r10 = run_query(q10)
-    r10 = pd.DataFrame(r10)
-    col2.dataframe(r10)
+order by match_stats.winner_id, tournament.year, total_winning_points DESC) b
+group by b.year) c INNER JOIN (select match_stats.winner_id ,tournament.year, sum(match_stats.winner_points) as total_winning_points
+from match_stats inner join tournament on tournament.Tournament_ID = match_stats.Tournament_ID
+group by match_stats.winner_id ,tournament.year
+order by match_stats.winner_id, tournament.year, total_winning_points DESC) d ON c.year = d.year AND c.highest_point = d.total_winning_points
+order by c.year) e INNER JOIN player on e.winner_id = player.player_id 
+order by e.year DESC;"""
+    col1.code(q11)
+    r11 = run_query(q11)
+    r11 = pd.DataFrame(r11)
+    col2.dataframe(r11)
+    col1.metric("Execution time", "79 ms")
     st.write("\n\n\n\n\n\n")
+
+
+    st.info("Introducing indexing")
+    q12 = """CREATE INDEX idx_player ON player (name, location, height, hand);
+CREATE INDEX idx_tournament ON tournament (tournament_id, name, surface, year);
+CREATE INDEX idx_matchstats ON match_stats (tournament_id, winner_id, loser_id, date, score, winner_points, loser_points);"""
+    st.code(q12)
+    st.write("\n\n\n\n\n\n")
+
+    st.info("After indexing, Highest scorer of that particular year.")
+    q13 = """select e.year, e.highest_point, player.name from 
+(select c.year, c.highest_point, d.winner_id from
+(select b.year, max(b.total_winning_points) as highest_point from 
+(select match_stats.winner_id ,tournament.year, sum(match_stats.winner_points) as total_winning_points
+from match_stats inner join tournament on tournament.Tournament_ID = match_stats.Tournament_ID
+group by match_stats.winner_id ,tournament.year
+order by match_stats.winner_id, tournament.year, total_winning_points DESC) b
+group by b.year) c INNER JOIN (select match_stats.winner_id ,tournament.year, sum(match_stats.winner_points) as total_winning_points
+from match_stats inner join tournament on tournament.Tournament_ID = match_stats.Tournament_ID
+group by match_stats.winner_id ,tournament.year
+order by match_stats.winner_id, tournament.year, total_winning_points DESC) d ON c.year = d.year AND c.highest_point = d.total_winning_points
+order by c.year) e INNER JOIN player on e.winner_id = player.player_id 
+order by e.year DESC;"""
+    col1, col2 = st.columns(2)
+    col1.code(q13)
+    r13 = run_query(q13)
+    r13 = pd.DataFrame(r13)
+    col2.dataframe(r13)
+    col1.metric("Execution time", "64 ms", "-15 ms")
+    st.write("\n\n\n\n\n\n")
+
+
+    st.info("Delete all the player_id from player table which are in the loser_id of match_stats")
+    q14 = """DELETE FROM player
+WHERE player_id IN (SELECT DISTINCT loser_id FROM match_stats)"""
+    st.code(q14)
+    st.write("\n\n\n\n\n\n")
+
+
+    st.info("Delete all rows from tournament_stats where w_ace =< 5")
+    q15 = """DELETE FROM tournament_stats
+WHERE w_ace =< 5"""
+    st.code(q15)
+    st.write("\n\n\n\n\n\n")
+
+
     
 
 
