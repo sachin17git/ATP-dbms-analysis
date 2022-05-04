@@ -5,7 +5,6 @@ Dataset --> https://github.com/JeffSackmann/tennis_atp
 
 ## Application dashboard!
 
-## 
 
 ## Main page
 ![main](https://user-images.githubusercontent.com/40026126/166816304-804ac3b6-fbaf-46e1-8695-512ea9c0641a.png)
