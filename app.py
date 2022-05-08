@@ -2,6 +2,7 @@ import sys
 import psycopg2
 import streamlit as st
 import pandas as pd
+import numpy as np
 import psycopg2.extras
 
 _, host, dbname, username, password = sys.argv
