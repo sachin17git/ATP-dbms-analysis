@@ -1,22 +1,24 @@
+import sys
 import psycopg2
 import pandas as pd
-import numpy as np
 
-def connect():
+_, host, dbname, username, password = sys.argv
+
+def connect(h, db, user, p):
     conn = None
     try:
         # connect to the PostgreSQL server
-        print('Connecting to the PostgreSQL database...')
-        conn = psycopg2.connect(host = "localhost",
-                                database = 'TennisATP',
+        conn = psycopg2.connect(host = h,
+                                database = db,
                                 port = 5432,
-                                user = 'postgres',
-                                password = 'xxxxxxxx')
+                                user = user,
+                                password = p)
     
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
-    
+
     return conn
+
 
 match_stats_df = pd.read_csv("./csv files/Match Stats.csv")
 player_details_df = pd.read_csv("./csv files/Player Details.csv")
@@ -35,15 +37,18 @@ def create_table(conn, sql_q):
         cur.execute(sql)
 
     conn.commit()
-    cur.close
+    cur.close()
+    conn.close()
     print("Tables created")
 
+conn = connect(host, dbname, username, password)
+create_table(conn, sql_create_table)
 
 sql_insert_table = ["insert into player values (%s, %s, %s, %s, %s)",
                     "insert into tournament values (%s, %s, %s, %s)",
                     "insert into match_stats values (%s, %s, %s, %s, %s, %s, %s)",
                     "insert into tournament_stats values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"]
-conn = connect()
+conn = connect(host, dbname, username, password)
 cur = conn.cursor()
 
 # Insert into player table.
@@ -69,6 +74,7 @@ cur.executemany(sql_insert_table[3], tstats_result)
 conn.commit()
 cur.close()
 conn.close()
+print("Data ingestion complete.")
 
 
 
