@@ -1,26 +1,28 @@
+import sys
 import psycopg2
 import streamlit as st
 import pandas as pd
 import numpy as np
 import psycopg2.extras
 
+_, host, dbname, username, password = sys.argv
 
-def connect():
+def connect(h, db, user, p):
     conn = None
     try:
         # connect to the PostgreSQL server
-        conn = psycopg2.connect(host = "localhost",
-                                database = 'TennisATP',
+        conn = psycopg2.connect(host = h,
+                                database = db,
                                 port = 5432,
-                                user = 'postgres',
-                                password = 'sachin@123')
+                                user = user,
+                                password = p)
     
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
 
     return conn
 
-conn = connect()
+conn = connect(host, dbname, username, password)
 
 @st.cache(allow_output_mutation=True,
           hash_funcs={psycopg2.extensions.connection: conn},
