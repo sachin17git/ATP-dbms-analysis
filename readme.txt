@@ -2,7 +2,7 @@ The obtained database was converted into a suitable form in order to inject into
 
 All these data were imported to the database via python using create and insert rules.
 
-In case you want to run our database and acess the dashboard, please follow the steps below.
+In case you want to run our database and access the dashboard, please follow the steps below.
 
 Steps to create database, load schema, ingest data and run dashboard.
 
@@ -22,9 +22,9 @@ Steps to create database, load schema, ingest data and run dashboard.
 
 	Now the database with schema and data has been loaded.
 
-4. Before running the python dashboard, please install the necessary packages which are listed in "requirements.txt" using pip.
+3. Before running the python dashboard, please install the necessary packages which are listed in "requirements.txt" using pip.
 
-5. Now run the python file 'app.py' to access the dashboard. Use the run command given below.
+4. Now run the python file 'app.py' to access the dashboard. Use the run command given below.
 
 	streamlit run app.py 'host' 'database-name' 'username' 'password'
 
@@ -32,4 +32,4 @@ Steps to create database, load schema, ingest data and run dashboard.
 
 	Please enter your database credentials while running.
 
-6. Now the app is up and running, paste this link in the browser 'http://localhost:8501' to access the dashboard.
+5. Now the app is up and running, paste this link in the browser 'http://localhost:8501' to access the dashboard.
