@@ -11,7 +11,7 @@ def connect():
                                 database = 'TennisATP',
                                 port = 5432,
                                 user = 'postgres',
-                                password = 'sachin@123')
+                                password = 'xxxxxxxx')
     
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -67,7 +67,7 @@ tstats_result = [tuple(r) for r in tstats_records]
 cur.executemany(sql_insert_table[3], tstats_result)
 
 conn.commit()
-cur.close
+cur.close()
 conn.close()
 
 
