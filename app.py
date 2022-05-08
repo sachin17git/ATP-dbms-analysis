@@ -275,10 +275,3 @@ WHERE player_id IN (SELECT DISTINCT loser_id FROM match_stats)"""
 WHERE w_ace =< 5"""
     st.code(q15)
     st.write("\n\n\n\n\n\n")
-
-
-    
-
-
-
-    
