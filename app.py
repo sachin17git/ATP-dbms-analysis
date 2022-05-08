@@ -13,7 +13,7 @@ def connect():
                                 database = 'TennisATP',
                                 port = 5432,
                                 user = 'postgres',
-                                password = 'sachin@123')
+                                password = 'xxxxxxxx')
     
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
