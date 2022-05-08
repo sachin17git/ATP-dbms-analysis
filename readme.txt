@@ -1,3 +1,8 @@
+The obtained database was converted into a suitable form in order to inject into the database. In order to reduce the production dataset to the suitable form, the exploratory data analysis was performed on the data in order to handle any missing values. The data required arithmetic manipulation with respect to few columns in order to satisfy the desired outcome of this project. The entire cleaned dataset was broken down to separate data frames as per the ER diagram.
+
+All these data were imported to the database via python using create and insert rules.
+
+
 Steps to create database, load schema, ingest data and run dashboard.
 
 1. Create a database on pgadmin, name it "TennisATP"
